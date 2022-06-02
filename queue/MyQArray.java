@@ -42,7 +42,7 @@ class Queue_Array{
             }
             arrObject[tail-1] = null;
             tail = tail-1;
-            return ;
+            return true;
         }
         else{
             return null;
